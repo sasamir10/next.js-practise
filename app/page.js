@@ -1,8 +1,14 @@
+import Link from "next/link";
+
 export default function Home() {
     return (
         <main>
-            <h1>Hello Next.js 14!</h1>
-            <p>My Next.js learning journey starts here.</p>
+            <h1>Home Page</h1>
+
+            <Link href="/about">About</Link>
+            <br />
+
+            <Link href="/contact">Contact</Link>
         </main>
     );
 }
